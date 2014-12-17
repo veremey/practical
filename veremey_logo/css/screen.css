@@ -1,0 +1,50 @@
+/*done by Veremey */
+/*@warn "The compass/css3/shared module has been deprecated.
+You can silence this warning by importing compass/css3/deprecated-support instead.
+Please be aware that module will be removed in the next release.";
+
+@import "deprecated-support";*/
+/*@warn "The compass/css3/shared module has been deprecated.
+You can silence this warning by importing compass/css3/deprecated-support instead.
+Please be aware that module will be removed in the next release.";
+
+@import "deprecated-support";*/
+/*@warn "The compass/css3/shared module has been deprecated.
+You can silence this warning by importing compass/css3/deprecated-support instead.
+Please be aware that module will be removed in the next release.";
+
+@import "deprecated-support";*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
+
+body, html { height: 100%; }
+
+img, fieldset, a img { border: none; }
+
+input[type="submit"], button { cursor: pointer; }
+input[type="submit"]::-moz-focus-inner, button::-moz-focus-inner { padding: 0; border: 0; }
+
+textarea { overflow: auto; }
+
+input, button { margin: 0; padding: 0; border: 0; }
+
+input, textarea, select, button, h1, h2, h3, h4, h5, h6, a, span, a:focus { outline: none; }
+
+ul, ol { list-style-type: none; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { * { -webkit-text-size-adjust: none; } }
+table { border-spacing: 0; border-collapse: collapse; width: 100%; }
+
+.veremey { position: relative; width: 150px; line-height: 50px; color: white; font-size: 30px; text-align: center; margin: 20px auto; }
+
+.veremey:before, .veremey:after { content: attr(data-text); position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.veremey:before { left: 2px; text-shadow: -1px 0 red; background-color: black; clip: rect(44px, 450px, 56px, 0); }
+
+.veremey:after { left: -2px; text-shadow: -1px 0 blue; background-color: black; animation: glitch-anim 2s infinite linear alternate-reverse; }
+
+@keyframes glitch-anim { 0% { clip: rect(70px, 450px, 76px, 0); }
+  20% { clip: rect(29px, 450px, 16px, 0); }
+  40% { clip: rect(76px, 450px, 3px, 0); }
+  60% { clip: rect(42px, 450px, 78px, 0); }
+  80% { clip: rect(15px, 450px, 13px, 0); }
+  100% { clip: rect(53px, 450px, 5px, 0); } }
